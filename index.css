@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    height: 100%;
+
+}
+
+
+/* --------------HEADER-------------- */
+
+header {
+    background-color: #3DE07E;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -1px;
+}
+
+h1 {
+    margin-top: auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 4rem;   
+}
+
+.ninjahead {
+    width: 10rem;
+    margin-top: auto;
+}
+
+.hamb-menu {
+    align-self: flex-start;
+    padding: 20px;  
+}
+
+/* --------------MAIN-------------- */
+
+main {
+
+    height: 100%;
+    background-color: #000000;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.first1, .first2, .first3, .second, .cart {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-family: "Fira Sans", serif;
+    font-weight: 200;  
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 600;   
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+    font-size: 1.2rem;    
+    }   
+}
+
+p {
+    font-size: 0.8rem;
+    padding: 20px 0;
+}
+
+article.item-small {
+    margin: .7rem;
+    margin-top: 4rem;
+    display: flex;              
+    flex-direction: column;
+}
+
+button {
+    padding: 5px;
+    background-color: #e83f57;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    border: none; 
+    margin-top: auto;
+    width: 130px; 
+}
+
+.itemimage-small {
+    width: 100%;
+}
+
+.item-large {
+    margin: .7rem;
+    margin-top: 4rem;
+    display: flex;              
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 400;
+}
+
+.itemimage-large {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-large h2, .item-large p {
+    padding: 10px;
+}
+
+
+.item-large button {
+    width: 140px;
+    padding: 10px;
+    margin: auto 0 10px 10px;   
+}
+
+/*--------------Checkout--------------*/
+
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+
+.item-checkout {
+    margin: .7rem;
+}
+
+
+.cartsection {
+    display:flex; 
+}
+
+main h1 {
+    color: #ffffff;
+    align-self: flex-start;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: .7rem;   
+}
+
+.endbutton {
+    font-size: 1.1rem;
+    padding: 10px;
+    width: 220px;
+    margin-top: 5rem;
+    margin-right: .7rem;
+    align-self: flex-end;
+}
+
+.buy {
+    margin: .7rem;
+}
+
+table {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+thead { 
+    background-color: rgb(75, 0, 0);
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+tr th, tr td {
+    flex: 1;
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+
+thead th {
+    font-weight: 100;
+    padding: 0;
+
+}
+
+tbody td {
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+tfoot {
+    border-top: 1px solid #ffffff;
+    margin-top: 5px;
+}
+
+tfoot td {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.product {
+    display: flex;
+    justify-content: flex-start;
+    flex: 2.5;
+}
+.no {
+    display: flex;
+    flex: 1.5
+}
+
+.producttot {
+    display: flex;
+    flex: 4;
+}
+
+.price {
+    display: flex;
+    flex: .6;
+}
+
+
+
+/*---------------FOOTER--------------- */
+
+
+footer {
+    padding: 2rem 2rem 6rem 2rem;
+
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-family: "Fira Sans", serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.footersection ul {
+    list-style-type: none;
+    font-size: 0.8rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+footer a img {
+    width: 1.3rem;
+    padding: 0 .25rem;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+}
+footer p {
+    padding-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
